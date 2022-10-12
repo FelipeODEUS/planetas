@@ -24,3 +24,4 @@ planet8 = "Neturno"
 cv2.putText(sistemaSolar, planet8,(1100,130),fontFace = cv2.FONT_HERSHEY_DUPLEX, fontScale = 0.5, color =  (248, 248, 255))
 cv2.imshow("Solar_systemwithname", sistemaSolar)
 cv2.waitKey(0)
+cv2.imwrite("Solar_systemwithname", sistemaSolar)
